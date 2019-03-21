@@ -1,0 +1,188 @@
+0.8.7 Release :  Tue, 11 Oct 2011 18:40:09 +0200
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.8.6 of Luciole.
+
+The goal of this version is to assure compatibility with ubnut Maverick
+and Natty. Problems of webcam detection (use of gudev instead
+of hal) and gstreamer(image capture does not work) was encountered.
+
+Luciole is now almost fully available in 9 languages
+New languages : 
+				Arabic (58 %) ,
+				Malayalam (13%),
+			   	Dutch (76 %),
+			   	Occitan (91 %), 
+				Brazilian Portuguese (100 %),
+				Serbian (50%), 
+				Swedish (72%)
+Updated translations : 
+				German (100%),
+				French (100%),
+				English UK (100%),
+			   	Hebrew (4%), 
+				Hungarian (40%),
+			   	Indonesian (50%),
+				Italian (100%),
+				Potuguese (79%),
+				Russian(100%)
+
+Non modified languages :
+				Spanish(100%)
+				Turkish(20%)
+
+List of Fixed launchpad bugs :
+------------------------------
+    LP: #872053 	Image capture impossible when luciole is running under Natty (11.04)
+    LP: #742343 	luciole does not detect webcam on maverick
+    LP: #691402 	Webcam best definition detection not correct 
+    LP: #782643 	export to Pitivi always with smae framaerate
+    LP: #871609 	Framerate "not integer" provokes play failure
+	
+
+0.8.6 Release :  Tue, 31 Aug 2010 10:26:00 +0400
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.8.6 of Luciole.
+
+This version is a bug correction release, due to bug raised in luciole 0.8.5
+and translation updates.
+
+i18n update for more compatibility with automatic launchpad translation
+New languages : Portuguese, Indonesian, Russian, Hungarian and a bit of Turkish
+
+Now project can be opened from any location. Luciole Project (and folder) can
+now be moved, and opened from any folder.
+Special thanks to jorge and his patch.
+
+Addition of accelerators (key mapping). usual accelerators added
+( CTRL+S for save, ...) and some specific ones :
+	 key 'a'		: Start/stop acquisition
+	 key 'space'	: takes a snapshot
+	 key 'Suppr'	: remove image from montage vie,
+	 key'CTRL+Suppr': remove image from capture view
+
+List of Fixed launchpad bugs :
+------------------------------
+	LP: #532967		Project path is hardcoded in project file   
+	LP: #626847		Menu shorcuts as CTRL+N or CTRL+S not in luciole 0.8.5
+
+
+
+
+0.8.5 Release :  Wed, 03 Mar 2010 08:54:44 +0400
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.8.5 of Luciole.
+
+This version is a bug correction release, due to bug raised in luciole 0.8.4
+and  translation updates.
+This vesion solves the problem of very long start up time in ubuntu karmic and
+lucid.
+
+List of Fixed launchpad bugs :
+------------------------------
+   LP: #525286  	 Luciole start up can be very long
+
+
+
+
+0.8.4 Release :  Mon, 15 Feb 2010 23:34:32 +0400
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.8.4 of Luciole.
+
+This version is a bug correction release, due to bug raised in luciole 0.8.3
+
+List of Fixed launchpad bugs :
+------------------------------
+   LP: #522266  	 Luciole crash at start up
+
+0.8.3 Release : Mon, 15 Feb 2010 09:25:00 +0400
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.8.3 of Luciole.
+
+This version is a bug correction release, due to bug raised in luciole 0.8.2
+
+List of Fixed launchpad bugs :
+------------------------------
+  LP: #522010	Segmentation fault on webcam detection when acqusisition is on
+  LP: #519652 	Luciole takes a while before starting due to theme warnings
+  LP: #521606 	Nothing happens when trying to open a non existing project
+  LP: #520495 	GUI display issue around mixer
+  LP: #521371 	A scroll bar is displayed when only 1 framerate is available
+
+
+  
+0.8.2 Release : Mon, 08 Feb 2010
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.8.2 of Luciole.
+
+This version is a minor ( after 0.8.1) version with bug corrections
+due to luciole regressions
+
+List of Fixed launchpad bugs :
+------------------------------
+  LP :#518402  	 "View -> Project properties" doesn't open any window 
+  LP: #518403    "File -> Import images" doesn't work
+
+
+
+
+0.8.1 Release : Thu, 04 Feb 2010
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.8.1 of Luciole.
+
+This version is a major issue with new features and bug updates. 
+
+This release is based on Luciole 0.7.4
+
+What's new ? 
+ - Luciole can now export a project to cinelerra , kdenlive and pitivi video 
+editing tools.  
+ - The CPU consumption during live acquisition was seriously reduced. So now
+Luciole can run on old or small (like netbooks) machines. On project properties
+a slider is now availabe to select the webcam framerate.
+ - Compatible with more webcams and video cards 
+ - On the invisible side : now Luciole use gtk.builder instead of 
+libglade( deprecated). And new logging /debug options (-v)
+ - Luciole is now available in :
+    - english
+    - french
+    - german
+    - italian
+    - spanish
+ - bug fix 
+
+
+List of implemented launchpad blueprints :
+------------------------------
+libglade-to-gtkbuilder :    Replace Libglade by gtk.builder 
+cinelerra-export :          Add export to cinelerra file format
+kdenlive-export :           Export to Kdenlive
+pitivi-export :             Export to Pitivi 
+luciole-logging :           Luciole logging feature
+
+List of Fixed launchpad bugs :
+------------------------------
+#498619     Acquisition doesn't work on DVCAM nor WEBCAM
+#500649     Excessive CPU use while capturing
+#500158     Impossible to change export path
+#500652     Weird Mixer behavior
+#505288     Error when opening existing project
+#518129     Unable to open existing project  
+
+
+
+
+
+0.7.4 Release : Thu, 26 Nov 2009 
+-------------------------------------------------------------------------------
+The Luciole team is proud to announce the release 0.7.4 of luciole.
+
+This Relase Version is a minor issue ( bugs corrections only).
+
+List of Fixed Launchpad Bugs :
+------------------------------
+#401342 	Package generation corrections
+#481732  	Webcam acquisition does not work on luciole under karmic
+#484062 	When luciole is on acquisition and close/destroy button is clicked
+              luciole exit but acquistion still running
+#485197 	Luciole does not allow to overwrite a video file during export
+#486963 	Luciole export on DV format does not work under karmic

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" root="" >
+ <producer in="0" out="14999" id="black" >
+  <property name="mlt_type" >producer</property>
+  <property name="aspect_ratio" >0.000000</property>
+  <property name="length" >15000</property>
+  <property name="eof" >pause</property>
+  <property name="resource" >black</property>
+  <property name="mlt_service" >colour</property>
+ </producer>
+ <!-- update out value with total duration -->
+ <playlist id="black_track" >
+  <entry in="0" out="" producer="black" />
+ </playlist>
+ <playlist id="playlist1" />
+ <playlist id="playlist2" />
+ <!-- generate producer tags here -->
+ 
+ <playlist id="lcl_track" >
+	 <!-- generate entry tags here -->
+ </playlist>
+
+ <!-- modify "out" value with number of frame in project -->
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="2" id="maintractor" >
+  <track producer="black_track" />
+  <track hide="video" producer="playlist1" />
+  <track hide="video" producer="playlist2" />
+  <track producer="lcl_track" />
+  </tractor>
+  <!-- Update projectfolder tag with kdenlivepath -->
+ <kdenlivedoc profile="dv_pal" kdenliveversion="0.7.5" version="0.84" projectfolder="" >
+  <documentproperties zonein="0" zoneout="100" zoom="1" verticalzoom="1" position="0" />
+  <profileinfo width="720" display_aspect_den="3" frame_rate_den="1" description="DV/DVD PAL" height="576" frame_rate_num="25" display_aspect_num="4" progressive="0" sample_aspect_num="16" sample_aspect_den="15" />
+  <tracksinfo>
+   <trackinfo blind="1" mute="0" locked="0" type="audio" />
+   <trackinfo blind="1" mute="0" locked="0" type="audio" />
+   <trackinfo blind="0" mute="0" locked="0" />
+  </tracksinfo>
+  <!--  generate kdenlive_producer tag example : 
+	  <kdenlive_producer audio_max="0" channels="0" duration="10" default_audio="0" video_max="0" frame_size="720x576" frequency="0" in="0" file_size="46448" aspect_ratio="1.000000" out="10" file_hash="fc820ac310b557ad08df64a52a06e635" type="5" id="1" name="rush_00000.jpeg" default_video="0" resource="/home/nico/temp/testLuciole/luciole_project_isight/rush/rush_00000.jpeg" />
+ -->
+ 
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>

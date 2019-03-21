@@ -1,0 +1,641 @@
+# Dutch translation for luciole
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the luciole package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: luciole\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-14 16:37+0400\n"
+"PO-Revision-Date: 2011-06-15 12:43+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-06-16 04:40+0000\n"
+"X-Generator: Launchpad (build 13168)\n"
+
+#: ../../luciole/ui/luciole.glade.h:1
+msgid " "
+msgstr " "
+
+#: ../../luciole/ui/luciole.glade.h:2
+msgid " Export file name (without extension)  :"
+msgstr " Naam van uitvoerbestand (zonder extensie):"
+
+#: ../../luciole/ui/luciole.glade.h:3
+msgid "About Luciole"
+msgstr "Over Luciole"
+
+#: ../../luciole/ui/luciole.glade.h:4
+msgid "Activate/Deactivate camera preview"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:4
+msgid "Add Trash to montage view"
+msgstr "Voeg Prullenbak toe aan montageweergave"
+
+#: ../../luciole/ui/luciole.glade.h:5
+msgid "Choose export format."
+msgstr "Kies een uitvoerformaat."
+
+#: ../../luciole/ui/luciole.glade.h:6
+msgid "Copyright 2009-2010  Nicolas Bertrand (nico@inattendu.org)"
+msgstr "Copyright 2009-2010  Nicolas Bertrand (nico@inattendu.org)"
+
+#: ../../luciole/ui/luciole.glade.h:7
+msgid "DV format (raw DV)"
+msgstr "DV-formaat (ruwe DV)"
+
+#: ../../luciole/ui/luciole.glade.h:8
+msgid "Default"
+msgstr "Standaard"
+
+#: ../../luciole/ui/luciole.glade.h:10
+msgid "Export"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:9
+msgid "Export path:"
+msgstr "Uitvoerpad:"
+
+#: ../../luciole/ui/luciole.glade.h:10
+msgid "Export video with sound."
+msgstr "Exporteer video met geluid."
+
+#: ../../luciole/ui/luciole.glade.h:11
+msgid "File format :"
+msgstr "Bestandsformaat:"
+
+#: ../../luciole/ui/luciole.glade.h:12
+msgid "Format DVD (mpeg2)"
+msgstr "DVD-formaat (mpeg2)"
+
+#: ../../luciole/ui/luciole.glade.h:13
+msgid "Format divx/xvid (avi)"
+msgstr "DivX/Xvid-formaat (avi)"
+
+#: ../../luciole/ui/luciole.glade.h:16
+msgid "Image per seconds"
+msgstr ""
+
+#. Caller une image sur le flux video
+#: ../../luciole/ui/luciole.glade.h:18
+msgid "Import images"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:14
+msgid "Luciole on line"
+msgstr "Luciole-website"
+
+#: ../../luciole/ui/luciole.glade.h:20
+msgid "Mixer"
+msgstr ""
+
+#. Descendre un/ou plusieurs images
+#: ../../luciole/ui/luciole.glade.h:22
+msgid "Move down one or several images"
+msgstr ""
+
+#. D&#xE9;placer des images captur&#xE9;es dans la zone de montage
+#: ../../luciole/ui/luciole.glade.h:24
+msgid "Move snapshot to montage area"
+msgstr ""
+
+#. Monter un/ou plusieurs images
+#: ../../luciole/ui/luciole.glade.h:26
+msgid "Move up one or several images"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:15
+msgid "Open recent"
+msgstr "Recente bestanden"
+
+#: ../../luciole/ui/luciole.glade.h:28
+msgid "Play video"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:16
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:132
+msgid "Project properties"
+msgstr "Projecteigenschappen"
+
+#: ../../luciole/ui/luciole.glade.h:17
+msgid "Select Theme"
+msgstr "Thema selecteren"
+
+#: ../../luciole/ui/luciole.glade.h:18
+msgid "Select a Luciole project"
+msgstr "Selecteer een Luciole-project"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:110
+#: ../../luciole/ui/export_file.glade.h:11 ../../luciole/ui/luciole.glade.h:19
+msgid "Select a folder"
+msgstr "Selecteer een map"
+
+#: ../../luciole/ui/luciole.glade.h:20
+msgid ""
+"Stop-motion tool for making animated cartoon\n"
+"Makes live video acquistion from Webcam or DV cam"
+msgstr ""
+"Programma om stop-motion-filmpjes te maken\n"
+"Ondersteunt live-video van een webcam of DV-camera"
+
+#: ../../luciole/ui/luciole.glade.h:22
+msgid ""
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either \n"
+"version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied \n"
+"warranty of MERCHANTABILITY or FITNESS FOR A \n"
+"PARTICULAR PURPOSE.  See the GNU General Public \n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public\n"
+"License along with this program; if not, write to the \n"
+"Free Software Foundation, \n"
+"Inc., 59 Temple Place - \n"
+"Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+
+#. Jeter &#xE0; la poubelle
+#: ../../luciole/ui/luciole.glade.h:53
+msgid "To trash"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:54
+msgid "Tool Export"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:38
+msgid "Tropical"
+msgstr "Tropisch"
+
+#: ../../luciole/ui/luciole.glade.h:39
+msgid "Video Export"
+msgstr "Video-uitvoer"
+
+#: ../../luciole/ui/luciole.glade.h:41
+msgid "_File"
+msgstr "_Bestand"
+
+#: ../../luciole/ui/luciole.glade.h:42
+msgid "_Help"
+msgstr "_Help"
+
+#: ../../luciole/ui/luciole.glade.h:43
+msgid "_View"
+msgstr "Beel_d"
+
+#: ../../luciole/ui/luciole.glade.h:60
+msgid "make a snapshot"
+msgstr ""
+
+#: ../../luciole/ui/luciole.glade.h:44
+msgid "options"
+msgstr "opties"
+
+#: ../../luciole/ui/luciole.glade.h:45
+msgid "project1"
+msgstr "project1"
+
+#: ../../luciole/ui/luciole.glade.h:46
+msgid "project2"
+msgstr "project2"
+
+#: ../../luciole/ui/luciole.glade.h:47
+msgid "project3"
+msgstr "project3"
+
+#: ../../luciole/ui/luciole.glade.h:48
+msgid "project4"
+msgstr "project4"
+
+#: ../../luciole/ui/luciole.glade.h:49
+msgid "project5"
+msgstr "project5"
+
+#: ../../luciole/ui/export_file.glade.h:1
+msgid "Cinelerra"
+msgstr "Cinelerra"
+
+#: ../../luciole/ui/export_file.glade.h:2
+msgid "Coming soon"
+msgstr "Komt binnenkort beschikbaar"
+
+#: ../../luciole/ui/export_file.glade.h:3
+msgid "Export to Kdenlive"
+msgstr "Exporteren naar Kdenlive"
+
+#: ../../luciole/ui/export_file.glade.h:4
+msgid "Export to another application"
+msgstr "Exporteren naar een andere applicatie"
+
+#: ../../luciole/ui/export_file.glade.h:5
+msgid "Export to cinelerra"
+msgstr "Exporteren naar Cinelerra"
+
+#: ../../luciole/ui/export_file.glade.h:6
+msgid "Export to pitivi"
+msgstr "Exporteren naar Pitivi"
+
+#: ../../luciole/ui/export_file.glade.h:7
+msgid "Kdenlive"
+msgstr "Kdenlive"
+
+#: ../../luciole/ui/export_file.glade.h:8
+msgid "Openshot"
+msgstr "OpenShot"
+
+#: ../../luciole/ui/export_file.glade.h:9
+msgid "Pitivi"
+msgstr "Pitivi"
+
+#: ../../luciole/ui/export_file.glade.h:10
+msgid "Select a filename"
+msgstr "Selecteer een bestandsnaam"
+
+#: ../../luciole/ui/export_file.glade.h:12
+msgid "Select an export directory"
+msgstr "Selecteer een uitvoermap"
+
+#: ../../luciole/ui/export_file.glade.h:13
+msgid "Tool Exporter"
+msgstr "Gereedschapsuitvoer"
+
+#: ../../luciole/ctrl/load_rush.py:146
+msgid "Project Load started"
+msgstr "Begonnen met project laden"
+
+#. TODO : This message should not displayed here
+#: ../../luciole/ctrl/load_rush.py:152
+#, python-format
+msgid "Project %s is loaded"
+msgstr "Project %s is geladen"
+
+#: ../../luciole/ctrl/load_rush.py:158
+#, python-format
+msgid "Project %s is loading"
+msgstr "Project %s wordt geladen"
+
+#: ../../luciole/ctrl/import_image.py:208
+msgid "Import started"
+msgstr "Begonnen met importeren"
+
+#: ../../luciole/ctrl/import_image.py:213
+msgid "All images imported"
+msgstr "Alle afbeeldingen geïmporteerd"
+
+#: ../../luciole/ctrl/import_image.py:220
+msgid "Importing images ..."
+msgstr "Afbeeldingen importeren..."
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:62
+msgid "Project folder :"
+msgstr "Projectmap:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:66
+msgid "Project name :"
+msgstr "Projectnaam:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:70
+msgid "XML file :"
+msgstr "XML-bestand:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:75
+msgid "Number of frames / image"
+msgstr "Aantal frames per afbeelding:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:79
+msgid "Device type"
+msgstr "Apparaattype:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:92
+msgid "Device :"
+msgstr "Apparaat:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:96
+msgid "Webcam name :"
+msgstr "Webcam-naam:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:101
+msgid "Video capture driver :"
+msgstr "Driver voor video-opname:"
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:93
+msgid "Video width :"
+msgstr ""
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:97
+msgid "Video height :"
+msgstr ""
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:102
+msgid ""
+"Webcam framerate \n"
+" (number of images per second)"
+msgstr ""
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:241
+#: ../../luciole/gui/windows/dialog_project_properties.py:259
+msgid "desc"
+msgstr ""
+
+#: ../../luciole/gui/windows/dialog_project_properties.py:445
+msgid "Webcam properties"
+msgstr "Webcameigenschappen"
+
+#. 
+#. Display Button fo webcam detetction
+#. 
+#: ../../luciole/gui/windows/dialog_project_properties.py:475
+msgid "Webcam detection"
+msgstr "Webcamdetectie"
+
+#: ../lucioLib/gui/luciole_export_window.py:174
+#, python-format
+msgid ""
+"%s is not valid. Not valid video name. It should be a combination of "
+"alphanumeric and '_' characters "
+msgstr ""
+
+#. add message display
+#. Launch Dialog window to ask if export file can be overide
+#: ../../luciole/gui/windows/export_tool_window.py:195
+#: ../../luciole/gui/windows/export_video_window.py:265
+#, python-format
+msgid "File %s already exists. Replace file ?"
+msgstr "Het bestand %s bestaat al. Vervangen?"
+
+#: ../../luciole/gui/windows/export_tool_window.py:114
+msgid "Select an application and a file name for export"
+msgstr "Selecteer een applicatie en een bestandsnaam om te exporteren"
+
+#. Terminated normaly
+#: ../../luciole/gui/windows/export_tool_window.py:216
+#: ../../luciole/project/export/export_video.py:262
+msgid "Export Done"
+msgstr "Exporteren geslaagd"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:62
+msgid ""
+"This assistant will help you on configuration of a new Luciole project."
+msgstr ""
+"Deze assistent zal u helpen met het configureren van een nieuw Luciole-"
+"project."
+
+#. A label
+#: ../../luciole/gui/windows/assistant_new_project.py:76
+msgid "Select project name and destination folder."
+msgstr "Selecteer de projectnaam en de bestemmingsmap."
+
+#. display project name
+#: ../../luciole/gui/windows/assistant_new_project.py:86
+#: ../../luciole/gui/windows/assistant_new_project.py:553
+msgid "Project Name"
+msgstr "Projectnaam"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:102
+msgid "Folder"
+msgstr "Map"
+
+#. project with same name alreday exists
+#: ../../luciole/gui/windows/assistant_new_project.py:188
+#, python-format
+msgid "The project %s already exists !"
+msgstr "Het project %s bestaat al!"
+
+#. invalid projetc name
+#: ../lucioLib/gui/assistant_new_project.py:171
+#, python-format
+msgid ""
+"%s isn't a valid project name. It should be a combination of alphanumeric "
+"and '_' characters "
+msgstr ""
+
+#: ../../luciole/gui/windows/assistant_new_project.py:253
+msgid "Select a device"
+msgstr "Selecteer een apparaat"
+
+msgid ""
+" Other device.\n"
+"(Manual import)"
+msgstr ""
+
+#: ../../luciole/gui/windows/assistant_new_project.py:304
+msgid "Images per second"
+msgstr "Afbeeldingen per seconde"
+
+#. display project path
+#: ../../luciole/gui/windows/assistant_new_project.py:559
+msgid "Project Path"
+msgstr "Projectpad"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:571
+msgid "Number of frames per seconds"
+msgstr "Aantal frames per seconde"
+
+#. display Hardware type
+#: ../../luciole/gui/windows/assistant_new_project.py:576
+msgid "Hardware type"
+msgstr "Hardwaretype"
+
+#. webcam name
+#: ../../luciole/gui/windows/assistant_new_project.py:595
+msgid "Webcam name"
+msgstr "Webcam-naam"
+
+#. webcam device
+#: ../../luciole/gui/windows/assistant_new_project.py:600
+msgid "Webcam device"
+msgstr "Webcam-apparaat"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:607
+msgid "Webcam resolution used"
+msgstr "Gebruikte webcam-resolutie"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:615
+msgid "Webcam driver used"
+msgstr "Gebruikte webcam-driver"
+
+#. Final message
+#: ../../luciole/gui/windows/assistant_new_project.py:636
+msgid "Have fun with luciole !"
+msgstr "Veel plezier met Luciole!"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:672
+msgid "Luciole project assistant"
+msgstr "Luciole-projectassistent"
+
+#: ../../luciole/gui/windows/assistant_new_project.py:683
+msgid " Select a project path "
+msgstr " Selecteer een projectpad "
+
+#: ../../luciole/gui/windows/assistant_new_project.py:692
+msgid " Select hardware "
+msgstr " Selecteer hardware "
+
+#: ../../luciole/gui/windows/assistant_new_project.py:702
+msgid " Webcam detection "
+msgstr " Webcamdetectie "
+
+#: ../../luciole/gui/windows/assistant_new_project.py:721
+msgid " Project overview "
+msgstr " Projectoverzicht "
+
+#. create New button project
+#: ../../luciole/gui/control_widget.py:62
+msgid "Create a new project"
+msgstr "Maak een nieuw project"
+
+#. create open button project
+#: ../../luciole/gui/control_widget.py:72
+msgid "Open an existing project"
+msgstr "Open een bestaand project"
+
+#: ../../luciole/gui/windows/webcam_detection_widget.py:104
+msgid "Please wait for webcam detection"
+msgstr ""
+
+#: ../../luciole/gui/windows/webcam_detection_widget.py:109
+msgid "Webcam detection done"
+msgstr ""
+
+#: ../../luciole/gui/windows/webcam_detection_widget.py:206
+msgid "Detected webcam(s)"
+msgstr ""
+
+#: ../../luciole/gui/windows/webcam_detection_widget.py:210
+msgid "No webcam detected"
+msgstr ""
+
+#: ../../luciole/gui/windows/dialog.py:84
+msgid "Select files to import"
+msgstr "Selecteer bestanden om te importeren"
+
+#: ../../luciole/gui/windows/dialog.py:169
+msgid "Select a Folder"
+msgstr "Selecteer een map"
+
+#: ../../luciole/constants.py:58
+msgid "OTHER DEVICE"
+msgstr "ANDER APPARAAT"
+
+#: ../lucioLib/luciole_controller.py:154
+msgid " Webcam data not valid in project. Please restart webcam detection"
+msgstr ""
+
+#: ../../luciole/ctrl/ctrl.py:416
+#, python-format
+msgid "Project %s saved"
+msgstr ""
+
+#: ../../luciole/ctrl/ctrl.py:401
+#, python-format
+msgid "Project saved as %s"
+msgstr ""
+
+#: ../../luciole/ctrl/ctrl.py:301
+msgid "No files or valid files choosen for image import."
+msgstr ""
+
+#: ../../luciole/ctrl/ctrl.py:304
+msgid "Impossible to import images when no project are loaded."
+msgstr ""
+
+msgid "Nothing to export. No project loaded"
+msgstr ""
+
+#. nbd@grape to transform as error message
+#: ../lucioLib/luciole_controller.py:325
+msgid "Can not play animantion : No image on montage view "
+msgstr ""
+
+#. nbd@grape to transform as error message
+#: ../lucioLib/luciole_controller.py:334
+msgid "Can not play animantion : No project loaded "
+msgstr ""
+
+#. ask for save it before close
+#: ../../luciole/ctrl/ctrl.py:172
+msgid "Save Project before closing"
+msgstr ""
+
+#. display close message
+#: ../../luciole/ctrl/ctrl.py:183
+#, python-format
+msgid "Project %s is closed"
+msgstr ""
+
+#. display message
+#. display the acquiring message
+#: ../../luciole/ctrl/ctrl.py:489 ../../luciole/ctrl/viewer_ctrl.py:422
+msgid "Acquiring"
+msgstr ""
+
+msgid ""
+"No acquisition available. Use 'import image' button to load images in "
+"project."
+msgstr ""
+
+#: ../../luciole/ctrl/ctrl.py:436
+msgid " Can not start acquisition when no project are loaded."
+msgstr ""
+
+#, python-format
+msgid "Acquisition error. %s"
+msgstr ""
+
+#. display message
+#: ../../luciole/ctrl/ctrl.py:260 ../../luciole/ctrl/viewer_ctrl.py:412
+msgid "No Acquistion"
+msgstr ""
+
+#: ../../luciole/ctrl/ctrl.py:376
+msgid "Project modified. Save project before exit ?"
+msgstr ""
+
+#: ../../luciole/ctrl/ctrl.py:626
+msgid "Please restart Luciole to take into account the new theme "
+msgstr ""
+
+#: ../lucioLib/luciole_controller.py:676
+msgid "Failed to load project "
+msgstr ""
+
+#: ../../luciole/project/export/export_video.py:116
+msgid "Pass 1/2"
+msgstr "Stap 1 van 2"
+
+#: ../../luciole/project/export/export_video.py:125
+msgid "Pass 2/2"
+msgstr "Stap 2 van 2"
+
+#: ../../luciole/project/export/export_video.py:265
+msgid "Export Canceled"
+msgstr "Exporteren geannuleerd"
+
+#: ../../luciole/project/export/export_video.py:784
+#: ../../luciole/project/export/export_video.py:836
+#: ../../luciole/project/export/export_video.py:864
+#, python-format
+msgid "Unable to erase : %s"
+msgstr "Kon %s niet verwijderen"
+
+#: ../../luciole/project/export/export_video.py:852
+#, python-format
+msgid "Creation of export folder not possible -- %s"
+msgstr "Aanmaken van de exporteer-map niet mogelijk - %s"
+
+#: ../../luciole/conf.py:122
+#, python-format
+msgid "Project %s no more exist"
+msgstr "Project %s bestaat niet meer"

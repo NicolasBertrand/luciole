@@ -1,0 +1,671 @@
+# English (United Kingdom) translation for luciole
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the luciole package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: luciole\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-14 16:37+0400\n"
+"PO-Revision-Date: 2010-08-31 09:33+0000\n"
+"Last-Translator: Jonathon Fernyhough <j.fernyhough@gmail.com>\n"
+"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-09-01 04:02+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../ui/luciole.glade.h:1
+msgid " "
+msgstr " "
+
+#: ../ui/luciole.glade.h:2
+msgid " Export file name (without extension)  :"
+msgstr " Destination filename (without extension) :"
+
+#: ../ui/luciole.glade.h:3
+msgid "About Luciole"
+msgstr "About Luciole"
+
+#: ../ui/luciole.glade.h:4
+msgid "Activate/Deactivate camera preview"
+msgstr "Enable/Disable camera preview"
+
+#: ../ui/luciole.glade.h:5
+msgid "Add Trash to montage view"
+msgstr "Add Trash button to capture area"
+
+#: ../ui/luciole.glade.h:6
+msgid "Choose export format."
+msgstr "Choose destination file format."
+
+#: ../ui/luciole.glade.h:7
+msgid "Copyright 2009-2010  Nicolas Bertrand (nico@inattendu.org)"
+msgstr "Copyright 2009-2010  Nicolas Bertrand (nico@inattendu.org)"
+
+#: ../ui/luciole.glade.h:8
+msgid "DV format (raw DV)"
+msgstr "DV format (raw DV)"
+
+#: ../ui/luciole.glade.h:9
+msgid "Default"
+msgstr "Default"
+
+#: ../ui/luciole.glade.h:10
+msgid "Export"
+msgstr "Render"
+
+#: ../ui/luciole.glade.h:11
+msgid "Export path:"
+msgstr "Path of the destination file"
+
+#: ../ui/luciole.glade.h:12
+msgid "Export video with sound."
+msgstr "Render video with sound"
+
+#: ../ui/luciole.glade.h:13
+msgid "File format :"
+msgstr "File format :"
+
+#: ../ui/luciole.glade.h:14
+msgid "Format DVD (mpeg2)"
+msgstr "DVD format (mpeg2)"
+
+#: ../ui/luciole.glade.h:15
+msgid "Format divx/xvid (avi)"
+msgstr "divx/xvid format (avi)"
+
+#: ../ui/luciole.glade.h:16
+msgid "Image per seconds"
+msgstr "Framerate"
+
+#. Caller une image sur le flux video
+#: ../ui/luciole.glade.h:18
+msgid "Import images"
+msgstr "Import images"
+
+#: ../ui/luciole.glade.h:19
+msgid "Luciole on line"
+msgstr "Luciole on line"
+
+#: ../ui/luciole.glade.h:20
+msgid "Mixer"
+msgstr "Onion skinning (Mixer)"
+
+#. Descendre un/ou plusieurs images
+#: ../ui/luciole.glade.h:22
+msgid "Move down one or several images"
+msgstr "Move one or several images downward"
+
+#. D&#xE9;placer des images captur&#xE9;es dans la zone de montage
+#: ../ui/luciole.glade.h:24
+msgid "Move snapshot to montage area"
+msgstr "Move one or several images to the Editing area"
+
+#. Monter un/ou plusieurs images
+#: ../ui/luciole.glade.h:26
+msgid "Move up one or several images"
+msgstr "Move one or several images upward"
+
+#: ../ui/luciole.glade.h:27
+msgid "Open recent"
+msgstr "Open recent"
+
+#: ../ui/luciole.glade.h:28
+msgid "Play video"
+msgstr "Play animation"
+
+#: ../ui/luciole.glade.h:29
+msgid "Preferences"
+msgstr "Preferences"
+
+#: ../ui/luciole.glade.h:30 ../lucioLib/gui/dialog_project_properties.py:105
+msgid "Project properties"
+msgstr "Project properties"
+
+#: ../ui/luciole.glade.h:31
+msgid "Select Theme"
+msgstr "Select Theme"
+
+#: ../ui/luciole.glade.h:32
+msgid "Select a Luciole project"
+msgstr "Select a Luciole project"
+
+#: ../ui/luciole.glade.h:33 ../ui/export_file.glade.h:11
+#: ../lucioLib/gui/assistant_new_project.py:102
+msgid "Select a folder"
+msgstr "Select a folder"
+
+#: ../ui/luciole.glade.h:34
+msgid ""
+"Stop-motion tool for making animated cartoon\n"
+"Makes live video acquistion from Webcam or DV cam"
+msgstr ""
+"Tool for making stop-motion animations\n"
+"Captures frames from live video stream (Webcam or DVcam)"
+
+#: ../ui/luciole.glade.h:36
+msgid ""
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either \n"
+"version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied \n"
+"warranty of MERCHANTABILITY or FITNESS FOR A \n"
+"PARTICULAR PURPOSE.  See the GNU General Public \n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public\n"
+"License along with this program; if not, write to the \n"
+"Free Software Foundation, \n"
+"Inc., 59 Temple Place - \n"
+"Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either \n"
+"version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied \n"
+"warranty of MERCHANTABILITY or FITNESS FOR A \n"
+"PARTICULAR PURPOSE.  See the GNU General Public \n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public\n"
+"License along with this program; if not, write to the \n"
+"Free Software Foundation, \n"
+"Inc., 59 Temple Place - \n"
+"Suite 330, Boston, MA 02111-1307, USA."
+
+#. Jeter &#xE0; la poubelle
+#: ../ui/luciole.glade.h:53
+msgid "To trash"
+msgstr "Move to Trash"
+
+#: ../ui/luciole.glade.h:54
+msgid "Tool Export"
+msgstr "Export tool"
+
+#: ../ui/luciole.glade.h:55
+msgid "Tropical"
+msgstr "Tropical"
+
+#: ../ui/luciole.glade.h:56
+msgid "Video Export"
+msgstr "Rendering"
+
+#: ../ui/luciole.glade.h:57
+msgid "_File"
+msgstr "_File"
+
+#: ../ui/luciole.glade.h:58
+msgid "_Help"
+msgstr "_Help"
+
+#: ../ui/luciole.glade.h:59
+msgid "_View"
+msgstr "_View"
+
+#: ../ui/luciole.glade.h:60
+msgid "make a snapshot"
+msgstr "Capture a frame"
+
+#: ../ui/luciole.glade.h:61
+msgid "options"
+msgstr "Options"
+
+#: ../ui/luciole.glade.h:62
+msgid "project1"
+msgstr "project1"
+
+#: ../ui/luciole.glade.h:63
+msgid "project2"
+msgstr "project2"
+
+#: ../ui/luciole.glade.h:64
+msgid "project3"
+msgstr "project3"
+
+#: ../ui/luciole.glade.h:65
+msgid "project4"
+msgstr "project4"
+
+#: ../ui/luciole.glade.h:66
+msgid "project5"
+msgstr "project5"
+
+#: ../ui/export_file.glade.h:1
+msgid "Cinelerra"
+msgstr "Cinelerra"
+
+#: ../ui/export_file.glade.h:2
+msgid "Coming soon"
+msgstr "Coming soon"
+
+#: ../ui/export_file.glade.h:3
+msgid "Export to Kdenlive"
+msgstr "Export to Kdenlive"
+
+#: ../ui/export_file.glade.h:4
+msgid "Export to another application"
+msgstr "Export to another application"
+
+#: ../ui/export_file.glade.h:5
+msgid "Export to cinelerra"
+msgstr "Export to Cinelerra"
+
+#: ../ui/export_file.glade.h:6
+msgid "Export to pitivi"
+msgstr "Export to Pitivi"
+
+#: ../ui/export_file.glade.h:7
+msgid "Kdenlive"
+msgstr "Kdenlive"
+
+#: ../ui/export_file.glade.h:8
+msgid "Openshot"
+msgstr "Openshot"
+
+#: ../ui/export_file.glade.h:9
+msgid "Pitivi"
+msgstr "Pitivi"
+
+#: ../ui/export_file.glade.h:10
+msgid "Select a filename"
+msgstr "Select a filename"
+
+#: ../ui/export_file.glade.h:12
+msgid "Select an export directory"
+msgstr "Select a directory"
+
+#: ../ui/export_file.glade.h:13
+msgid "Tool Exporter"
+msgstr "Export tool"
+
+#: ../lucioLib/controller/controller_load_project.py:134
+msgid "Project Load started"
+msgstr "Project Load started"
+
+#: ../lucioLib/controller/controller_load_project.py:139
+#, python-format
+msgid "Project %s is loaded"
+msgstr "Project %s is loaded"
+
+#: ../lucioLib/controller/controller_load_project.py:145
+#, python-format
+msgid "Project %s is loading"
+msgstr "Project %s is loading"
+
+#: ../lucioLib/controller/controller_import.py:177
+msgid "Import started"
+msgstr "Import started"
+
+#: ../lucioLib/controller/controller_import.py:182
+msgid "All images imported"
+msgstr "All images imported"
+
+#: ../lucioLib/controller/controller_import.py:188
+msgid "Importing images ..."
+msgstr "Importing images ..."
+
+#: ../lucioLib/gui/dialog_project_properties.py:51
+msgid "Project folder :"
+msgstr "Project folder :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:55
+msgid "Project name :"
+msgstr "Project name :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:59
+msgid "XML file :"
+msgstr "XML file :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:64
+msgid "Number of frames / image"
+msgstr "Framerate :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:68
+msgid "Device type"
+msgstr "Hardware :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:76
+msgid "Device :"
+msgstr "Device :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:80
+msgid "Webcam name :"
+msgstr "Webcam name :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:85
+msgid "Video capture driver :"
+msgstr "Video driver :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:89
+msgid "Video width :"
+msgstr "Video width :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:93
+msgid "Video height :"
+msgstr "Video height :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:97
+msgid ""
+"Webcam framerate \n"
+" (number of images per second)"
+msgstr "Framerate :"
+
+#: ../lucioLib/gui/dialog_project_properties.py:213
+#: ../lucioLib/gui/dialog_project_properties.py:229
+msgid "desc"
+msgstr "desc"
+
+#: ../lucioLib/gui/dialog_project_properties.py:271
+msgid "Webcam properties"
+msgstr "Webcam properties"
+
+#. 
+#. Display Button fo webcam detetction
+#. 
+#: ../lucioLib/gui/dialog_project_properties.py:300
+msgid "Webcam detection"
+msgstr ""
+"Webcam detection\n"
+"click to activate"
+
+#: ../lucioLib/gui/luciole_export_window.py:174
+#, python-format
+msgid ""
+"%s is not valid. Not valid video name. It should be a combination of "
+"alphanumeric and '_' characters "
+msgstr ""
+"%s is not valid. Filenames for video should be a combination of alphanumeric "
+"and '_' characters "
+
+#. Launch Dialog window to ask if export file can be overide
+#. add message display
+#: ../lucioLib/gui/luciole_export_window.py:207
+#: ../lucioLib/gui/luciole_export_tool_window.py:196
+#, python-format
+msgid "File %s already exists. Replace file ?"
+msgstr "File %s already exists. Replace file ?"
+
+#: ../lucioLib/gui/luciole_export_tool_window.py:115
+msgid "Select an application and a file name for export"
+msgstr "Select an application and a file name for export"
+
+#. Terminated normaly
+#: ../lucioLib/gui/luciole_export_tool_window.py:209
+#: ../lucioLib/lcl_export/lcl_export_video.py:207
+msgid "Export Done"
+msgstr "Render done"
+
+#. 
+#. Initailize widgets for first page
+#. 
+#. A label
+#: ../lucioLib/gui/assistant_new_project.py:59
+msgid ""
+"This assistant will help you on configuration of a new Luciole project."
+msgstr "This assistant will help you configuring a new Luciole project."
+
+#. A label
+#: ../lucioLib/gui/assistant_new_project.py:72
+msgid "Select project name and destination folder."
+msgstr "Select a project name and a destination folder."
+
+#. display project name
+#: ../lucioLib/gui/assistant_new_project.py:82
+#: ../lucioLib/gui/assistant_new_project.py:362
+msgid "Project Name"
+msgstr "Project name"
+
+#: ../lucioLib/gui/assistant_new_project.py:95
+msgid "Folder"
+msgstr "Folder"
+
+#. project with same name alreday exists
+#: ../lucioLib/gui/assistant_new_project.py:167
+#, python-format
+msgid "The project %s already exists !"
+msgstr "The project %s already exists !"
+
+#. invalid projetc name
+#: ../lucioLib/gui/assistant_new_project.py:171
+#, python-format
+msgid ""
+"%s isn't a valid project name. It should be a combination of alphanumeric "
+"and '_' characters "
+msgstr ""
+"%s isn't valid. Project names should be a combination of alphanumeric and "
+"'_' characters "
+
+#: ../lucioLib/gui/assistant_new_project.py:226
+msgid "Select a device"
+msgstr "Select a device"
+
+#: ../lucioLib/gui/assistant_new_project.py:246
+msgid ""
+" Other device.\n"
+"(Manual import)"
+msgstr " Manual import from disk"
+
+#: ../lucioLib/gui/assistant_new_project.py:263
+msgid "Images per second"
+msgstr "Framerate (images per second)"
+
+#. display project path
+#: ../lucioLib/gui/assistant_new_project.py:366
+msgid "Project Path"
+msgstr "Project path"
+
+#: ../lucioLib/gui/assistant_new_project.py:375
+msgid "Number of frames per seconds"
+msgstr "Framerate"
+
+#. display Hardware type
+#: ../lucioLib/gui/assistant_new_project.py:379
+msgid "Hardware type"
+msgstr "Hardware"
+
+#. webcam name
+#: ../lucioLib/gui/assistant_new_project.py:385
+msgid "Webcam name"
+msgstr "Webcam name"
+
+#. webcam device
+#: ../lucioLib/gui/assistant_new_project.py:389
+msgid "Webcam device"
+msgstr "Webcam device"
+
+#. webcam resolution
+#: ../lucioLib/gui/assistant_new_project.py:393
+msgid "Webcam resolution used"
+msgstr "Resolution"
+
+#. webcam device
+#: ../lucioLib/gui/assistant_new_project.py:399
+msgid "Webcam driver used"
+msgstr "Webcam driver"
+
+#. Final message
+#: ../lucioLib/gui/assistant_new_project.py:404
+msgid "Have fun with luciole !"
+msgstr "Have fun with Luciole!"
+
+#: ../lucioLib/gui/assistant_new_project.py:434
+msgid "Luciole project assistant"
+msgstr "Luciole project assistant"
+
+#: ../lucioLib/gui/assistant_new_project.py:445
+msgid " Select a project path "
+msgstr " Select a project path "
+
+#: ../lucioLib/gui/assistant_new_project.py:454
+msgid " Select hardware "
+msgstr " Hardware selection "
+
+#: ../lucioLib/gui/assistant_new_project.py:464
+msgid " Webcam detection "
+msgstr " Webcam detection "
+
+#: ../lucioLib/gui/assistant_new_project.py:474
+msgid " Project overview "
+msgstr " Project overview "
+
+#. create New button project
+#: ../lucioLib/gui/open_project_widget.py:50
+msgid "Create a new project"
+msgstr "Create a new project"
+
+#. create open button project
+#: ../lucioLib/gui/open_project_widget.py:59
+msgid "Open an existing project"
+msgstr "Open an existing project"
+
+#: ../lucioLib/gui/webcam_detection_widget.py:98
+msgid "Please wait for webcam detection"
+msgstr "Please wait for webcam detection"
+
+#: ../lucioLib/gui/webcam_detection_widget.py:103
+msgid "Webcam detection done"
+msgstr "Webcam detected"
+
+#: ../lucioLib/gui/webcam_detection_widget.py:188
+msgid "Detected webcam(s)"
+msgstr "Detected webcam(s)"
+
+#: ../lucioLib/gui/webcam_detection_widget.py:192
+msgid "No webcam detected"
+msgstr "No webcam detected"
+
+#: ../lucioLib/gui/dialog.py:73
+msgid "Select files to import"
+msgstr "Select image files to import"
+
+#: ../lucioLib/gui/dialog.py:114
+msgid "Select a Folder"
+msgstr "Select a folder"
+
+#: ../lucioLib/luciole_constants.py:42
+msgid "OTHER DEVICE"
+msgstr "OTHER DEVICE"
+
+#: ../lucioLib/luciole_controller.py:154
+msgid " Webcam data not valid in project. Please restart webcam detection"
+msgstr " Invalid Webcam data. Please restart Webcam detection"
+
+#: ../lucioLib/luciole_controller.py:171
+#, python-format
+msgid "Project %s saved"
+msgstr "Project %s saved"
+
+#: ../lucioLib/luciole_controller.py:198
+#, python-format
+msgid "Project saved as %s"
+msgstr "Project saved as %s"
+
+#: ../lucioLib/luciole_controller.py:243
+msgid "No files or valid files choosen for image import."
+msgstr "No files or no valid files selected for image import."
+
+#: ../lucioLib/luciole_controller.py:247
+msgid "Impossible to import images when no project are loaded."
+msgstr "Image import impossible : No projects loaded"
+
+#: ../lucioLib/luciole_controller.py:275 ../lucioLib/luciole_controller.py:283
+msgid "Nothing to export. No project loaded"
+msgstr "Nothing to export : No projects loaded"
+
+#. nbd@grape to transform as error message
+#: ../lucioLib/luciole_controller.py:325
+msgid "Can not play animantion : No image on montage view "
+msgstr "Can not play animation : No images on Editing area "
+
+#. nbd@grape to transform as error message
+#: ../lucioLib/luciole_controller.py:334
+msgid "Can not play animantion : No project loaded "
+msgstr "Can not play animation : No projects loaded "
+
+#. nbd@grape  : ask for save if save set status as loaded
+#: ../lucioLib/luciole_controller.py:386
+msgid "Save Project before closing"
+msgstr "Save project before closing"
+
+#: ../lucioLib/luciole_controller.py:412
+#, python-format
+msgid "Project %s is closed"
+msgstr "Project %s is closed"
+
+#. clear message status bar
+#: ../lucioLib/luciole_controller.py:433
+msgid "Acquiring"
+msgstr "Acquiring"
+
+#. stop acquirer
+#: ../lucioLib/luciole_controller.py:450
+msgid ""
+"No acquisition available. Use 'import image' button to load images in "
+"project."
+msgstr ""
+"No acquisition available. Use the 'import image' button to load images into "
+"the project."
+
+#: ../lucioLib/luciole_controller.py:462
+msgid " Can not start acquisition when no project are loaded."
+msgstr " Can not start acquisition: No projects loaded"
+
+#: ../lucioLib/luciole_controller.py:471
+#, python-format
+msgid "Acquisition error. %s"
+msgstr "Acquisition error. %s"
+
+#: ../lucioLib/luciole_controller.py:485
+msgid "No Acquistion"
+msgstr "No acquistion"
+
+#. nbd@grape  : ask for save if save set status as loaded
+#: ../lucioLib/luciole_controller.py:574
+msgid "Project modified. Save project before exit ?"
+msgstr "Project modified. Save project before exiting ?"
+
+#: ../lucioLib/luciole_controller.py:626
+msgid "Please restart Luciole to take into account the new theme "
+msgstr "Please restart Luciole to load the new theme "
+
+#: ../lucioLib/luciole_controller.py:676
+msgid "Failed to load project "
+msgstr "Failed to load project "
+
+#: ../lucioLib/lcl_export/lcl_export_video.py:94
+msgid "Pass 1/2"
+msgstr "Pass 1/2"
+
+#: ../lucioLib/lcl_export/lcl_export_video.py:103
+msgid "Pass 2/2"
+msgstr "Pass 2/2"
+
+#: ../lucioLib/lcl_export/lcl_export_video.py:210
+msgid "Export Canceled"
+msgstr "Export cancelled"
+
+#: ../lucioLib/lcl_export/lcl_export_video.py:569
+#: ../lucioLib/lcl_export/lcl_export_video.py:605
+#: ../lucioLib/lcl_export/lcl_export_video.py:632
+#, python-format
+msgid "Unable to erase : %s"
+msgstr "Unable to erase : %s"
+
+#: ../lucioLib/lcl_export/lcl_export_video.py:621
+#, python-format
+msgid "Creation of export folder not possible -- %s"
+msgstr "Impossible to create destination folder -- %s"
+
+#: ../lucioLib/luciole_manage_recent.py:95
+#, python-format
+msgid "Project %s no more exist"
+msgstr "Project %s no longer exists"

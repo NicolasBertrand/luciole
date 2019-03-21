@@ -1,0 +1,144 @@
+# Theme: Luciole Tropical
+# Description: Based on theme Tropical from ZgegBall / François Vogelweith 
+#              (http://www.bisigi-project.org/) under GPL lience
+#
+# Copyright Nicolas Bertrand (nico@inattendu.org), 2010
+#
+# This file is part of Luciole.
+#
+#    Luciole is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    Luciole is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with Luciole.  If not, see <http://www.gnu.org/licenses/>.
+#
+#
+#
+
+
+style "Tropical" 
+{ 
+  
+    fg[NORMAL]        = '#101010'
+	fg[PRELIGHT]      = '#101010'
+	fg[SELECTED]      = '#1A1A1A'
+	fg[ACTIVE]        = '#101010'
+	fg[INSENSITIVE]   = darker ('#EDEDED')
+
+	bg[NORMAL]        = '#EDEDED'
+	bg[PRELIGHT]      = shade (1.02, '#EDEDED')
+	bg[SELECTED]	  = '#9DDDC8'  
+	bg[INSENSITIVE]   = '#EDEDED'
+	bg[ACTIVE]        = shade (0.90, '#EDEDED')
+
+	base[NORMAL]      = '#fff'
+	base[PRELIGHT]    = shade (0.95, '#EDEDED')
+	base[ACTIVE]      = shade (0.90, '#EDEDED')
+	base[SELECTED]    = shade (1.25, '#BFF44B')  
+	base[INSENSITIVE] = '#EDEDED'
+
+	text[NORMAL]      = '#1A1A1A'
+	text[PRELIGHT]    = '#1A1A1A'
+	text[ACTIVE]      = '#1A1A1A'
+	text[SELECTED]    = '#1A1A1A'
+	text[INSENSITIVE] = darker ('#EDEDED')
+
+ stock["gtk-go-forward"] = 
+  {
+    { "Tropical/icons/gtk-go-forward-ltr.png", *, *, * }
+  }
+  
+  stock["gtk-go-up"] = 
+  {
+    { "Tropical/icons/gtk-go-up.png", *, *, * }
+  }
+  
+  stock["gtk-go-down"] = 
+  {
+    { "Tropical/icons/gtk-go-down.png", *, *, * }
+  }
+  
+  stock["gtk-open"] = 
+  {
+    { "Tropical/icons/gtk-open.png", *, *, * }
+  }
+  
+  stock["gtk-new"] = 
+  {
+    { "Tropical/icons/gtk-new.png", *, *, * }
+  }
+
+  stock["gtk-save"] = 
+  {
+    { "Tropical/icons/gtk-save.png", *, *, * }
+  }
+  stock["gtk-save-as"] = 
+  {
+    { "Tropical/icons/gtk-save-as.png", *, *, * }
+  }
+  stock["gtk-add"] = 
+  {
+    { "Tropical/icons/gtk-add.png", *, *, * }
+  }
+
+ stock["gtk-close"] = 
+  {
+    { "Tropical/icons/gtk-close.png", *, *, * }
+  }
+
+ stock["gtk-properties"] = 
+  {
+    { "Tropical/icons/gtk-properties.png", *, *, * }
+  }
+ stock["gtk-delete"] = 
+  {
+    { "Tropical/icons/gtk-delete.png", *, *, * }
+  }
+ stock["gtk-cancel"] = 
+  {
+    { "Tropical/icons/gtk-cancel.png", *, *, * }
+  }
+ stock["gtk-apply"] = 
+  {
+    { "Tropical/icons/gtk-apply.png", *, *, * }
+  }
+ stock["gtk-yes"] = 
+  {
+    { "Tropical/icons/gtk-yes.png", *, *, * }
+  }
+ stock["gtk-no"] = 
+  {
+    { "Tropical/icons/gtk-no.png", *, *, * }
+  }
+ stock["gtk-ok"] = 
+  {
+    { "Tropical/icons/gtk-ok.png", *, *, * }
+  }
+stock["gtk-ok"] = 
+  {
+    { "Tropical/icons/gtk-ok.png", *, *, * }
+  }
+
+stock["gtk-dialog-error"] = 
+  {
+    { "Tropical/icons/gtk-dialog-error.png", *, *, * }
+  }
+stock["gtk-dialog-info"] = 
+  {
+    { "Tropical/icons/gtk-dialog-info.png", *, *, * }
+  }
+stock["gtk-dialog-warning"] = 
+  {
+    { "Tropical/icons/gtk-dialog-warning.png", *, *, * }
+  }
+
+}
+
+class "GtkWidget" style "Tropical"

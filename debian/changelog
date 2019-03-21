@@ -1,0 +1,71 @@
+luciole (0.8.7-0ubuntu1) maverick; urgency=low
+
+  * New upstream release. Fixes Bug :
+    - LP: #872053 	Image capture impossible when luciole is running under 
+        Natty (11.04)
+    - LP: #742343 	luciole does not detect webcam on maverick
+    - LP: #691402 	Webcam best definition detection not correct 
+    - LP: #782643 	export to Pitivi always with smae framaerate
+    - LP: #871609 	Framerate "not integer" provokes play failure
+
+ -- Nicolas Bertrand <nico@inattendu.org>  Wed, 12 Oct 2011 16:45:47 +0200
+
+luciole (0.8.6-0ubuntu1) maverick; urgency=low
+
+  * New upstream release. Bug fixing only release. Fixes:
+    - LP: #532967 - Project path is hardcoded in project file
+    - LP: #626847 - Menu shorcuts as CTRL+N or CTRL+S not in luciole 0.8.5
+      (regression)
+  * debian/patches: deleted as there are no patches left.
+ -- Fabrice Coutadeur <fabricesp@ubuntu.com>  Thu, 02 Sep 2010 19:13:04 +0000
+
+luciole (0.8.5) karmic; urgency=low
+  * New packaging
+  * New upstream version
+   LP: #525286  	 Luciole start up can be very long
+
+ -- Nicolas Bertrand <nico@inattendu.org>  Wed, 03 Mar 2010 09:10:49 +0400
+
+luciole (0.8.4) karmic; urgency=low
+  * New upstream version
+   LP: #522266  	 Luciole crash at start up
+
+ -- Nicolas Bertrand <nico@inattendu.org>  Mon, 15 Feb 2010 23:43:53 +0400
+
+luciole (0.8.3) karmic; urgency=low
+  * New upstream version
+   LP: #522010	Segmentation fault on webcam detection when acqusisition is on
+   LP: #519652 	Luciole takes a while before starting due to theme warnings
+   LP: #521606 	Nothing happens when trying to open a non existing project
+   LP: #520495 	GUI display issue around mixer
+   LP: #521371 	A scroll bar is displayed when only 1 framerate is available
+
+ -- Nicolas Bertrand <nico@inattendu.org>  Mon, 15 Feb 2010 10:09:35 +0400
+
+luciole (0.8.2) karmic; urgency=low
+  * New upstrame version
+   -LP: #518402  	 "View -> Project properties" doesn't open any window 
+   -LP: #518403    "File -> Import images" doesn't work
+
+ -- Nicolas Bertrand <nico@inattendu.org>  Mon, 08 Feb 2010 08:55:06 +0400
+
+luciole (0.8.1) karmic; urgency=low
+
+  List of implemented launchpad blueprints :
+  ------------------------------
+  libglade-to-gtkbuilder :    Replace Libglade by gtk.builder 
+  cinelerra-export :          Add export to cinelerra file format
+  kdenlive-export :           Export to Kdenlive
+  pitivi-export :             Export to Pitivi 
+  luciole-logging :           Luciole logging feature
+
+  List of Fixed launchpad bugs :
+  ------------------------------
+  LP: #498619     Acquisition doesn't work on DVCAM nor WEBCAM
+  LP: #500649     Excessive CPU use while capturing
+  LP: #500158     Impossible to change export path
+  LP: #500652     Weird Mixer behavior
+  LP: #505288     Error when opening existing project
+  LP: #518129     Unable to open existing project  
+
+ -- Nicolas Bertrand <nico@inattendu.org>  Sun, 07 Feb 2010 18:31:32 +0400

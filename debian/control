@@ -1,0 +1,37 @@
+Source: luciole
+Section: graphics
+Priority: extra
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Nicolas Bertrand <nico@inattendu.org>
+Build-Depends: debhelper (>= 7.0.50),
+               python-dev,
+               python-gtk2-dev,
+               perl
+XS-Python-Version: >=2.6
+Standards-Version: 3.9.1
+
+Package: luciole
+Architecture:any
+XB-Python-Version: ${python:Versions}
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         python-gtk2,
+         python-glade2,
+         python-gnome2,
+         python-dbus,
+         python-gudev,
+         libgstreamer0.10-0 (>= 0.10.30), 
+         libgstreamer-plugins-base0.10-0 (>= 0.10.30), 
+         gstreamer0.10-x,
+         gstreamer0.10-alsa | gstreamer0.10-audiosink,
+         python-gst0.10,
+         mjpegtools,
+         python-imaging,
+         imagemagick,
+         mencoder,
+         ffmpeg
+Description: Image per Image capture tool for movie animations
+ Luciole is a stop motion software for animation movie realization.
+ It can make live capture of images from external devices as webcam or DV cam.
+ Luciole is intended to be easy to use for educational purpose and simplify 
+ animation movie mounting.

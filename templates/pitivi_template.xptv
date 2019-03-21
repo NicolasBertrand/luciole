@@ -1,0 +1,20 @@
+<pitivi formatter="etree" version="0.1">
+  <factories>
+    <sources>
+    
+	</sources>
+  </factories>
+  <timeline>
+    <tracks>
+      <track>
+        <stream caps="video/x-raw-rgb; video/x-raw-yuv" id="4" name="None" type="pitivi.stream.VideoStream" />
+        <track-objects />
+      </track>
+      <track>
+        <stream caps="audio/x-raw-int; audio/x-raw-float" id="5" name="None" type="pitivi.stream.AudioStream" />
+        <track-objects />
+      </track>
+    </tracks>
+    <timeline-objects />
+  </timeline>
+</pitivi>

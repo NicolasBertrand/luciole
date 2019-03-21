@@ -1,0 +1,63 @@
+=head1 NAME
+
+Luciole - Stop-motion capture tool for movie animations.
+
+=head1 SYNOPSIS
+
+luciole [I<options>]
+
+=head1 DESCRIPTION
+
+Luciole is a stop motion software for animation movie realization. 
+It can make live capture of images from external devices as webcam or DV cam.
+Luciole is intended to be easy to use for educational purpose 
+and simplify animation movie mounting.
+
+=head1 OPTIONS
+
+=over 8
+
+=item B<-f , --file  I<project_path>>
+
+Open luciole with project given by I<project_path>. The I<project_path> shall
+be a luciole xml project file.
+
+=item B<-v , --verbose>
+
+Toggle luciole verbosity. useful for debug
+
+=item B<-l , --logfile>
+
+Log luciole cli data to $HOME/luciole.log. Associate it with option -v to log debug data to file
+
+=back
+
+=head1 DEBUGGING WITH GSTREAMER
+
+If you need to debug luciole with gstreamer debug commands run :
+luciole -v --gst-debug-level=3 >luciole.log 2>&1
+All gstreamer debug options are availabe. See http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/html/section-checklist-debug.html
+for info about debugging with gstreamer
+
+=head1 BUGS
+
+Please report bugs at https://bugs.launchpad.net/luciole.
+
+=head1 AUTHORS
+
+B<Luciole> was written by Nicolas Bertrand <nico@inattendu.org> with help of grape team. 
+This manual page was written by Nicolas Bertrand <nico@inattendu.org>.
+
+=head1 COPYRIGHT
+
+Copyright (C) : {2009-2010} by Nicolas Bertrand <nico@inattendu.org>
+
+This software is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+On Debian systems, the complete text of the GNU General
+Public License v3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+=cut

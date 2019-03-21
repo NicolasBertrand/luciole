@@ -1,0 +1,19 @@
+[encoding: UTF-8]
+luciole.py
+ui/luciole.glade
+ui/export_file.glade
+lucioLib/controller/controller_load_project.py
+lucioLib/controller/controller_import.py
+lucioLib/gui/dialog_project_properties.py
+lucioLib/gui/luciole_export_window.py
+lucioLib/gui/luciole_export_tool_window.py
+lucioLib/gui/assistant_new_project.py
+lucioLib/gui/open_project_widget.py
+lucioLib/gui/gui_controller.py
+lucioLib/gui/webcam_detection_widget.py
+lucioLib/gui/dialog.py
+lucioLib/luciole_constants.py
+lucioLib/luciole_controller.py
+lucioLib/luciole_image.py
+lucioLib/lcl_export/lcl_export_video.py
+lucioLib/luciole_manage_recent.py

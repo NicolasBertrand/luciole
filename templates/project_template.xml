@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lucioleProject>
+  <metas>
+    <projectName></projectName>
+    <projectPath></projectPath>
+    <rush_dir>toto</rush_dir>
+    <export_dir>tata</export_dir>
+    <fpi>5</fpi>
+    <hardtype id="0"></hardtype>
+  </metas>
+
+	<rushData>
+  </rushData>
+
+	<captureData>
+  </captureData>
+
+	<chronoData>
+   </chronoData>
+
+</lucioleProject>

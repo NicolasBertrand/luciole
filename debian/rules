@@ -1,0 +1,47 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+DEB_INSTALL_MANPAGES_LUCIOLE = luciole.1
+
+build: build-stamp
+
+build-stamp:
+	dh_testdir
+	$(MAKE)
+	pod2man --section=1 --center "" debian/luciole.pod luciole.1
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+
+	rm -f luciole.1
+	$(MAKE) clean
+
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_prep 
+	dh_installdirs
+
+	$(MAKE) install DESTDIR=$(CURDIR)/debian/luciole
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	dh_installdocs
+	dh_installman luciole.1
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Luciole
+GenericName=Stopmotion tool
+GenericName[fr]=Outil d'acquisition image par image  
+Comment=Image Per Image capture tool for making animation movies.
+Comment[fr]=Outil de capture image par image pour creation de films d'animations
+StartupNotify=true
+Exec=luciole
+MimeType=video/x-luciole;
+Icon=luciole
+Terminal=false
+Categories=AudioVideo;Video;Graphics;GNOME;Photography;
+Encoding=UTF-8

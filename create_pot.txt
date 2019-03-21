@@ -1,0 +1,49 @@
+Article de base :
+http://daniel.coquette.free.fr/dotclear/index.php/post/2007/10/01/Traduction-dapplication-Python/PyGTK
+
+Le fichier glade doit etre déja en anglais. pourquoi ?
+
+1. Extraire le texte a traduire de glade
+-------------------------------------------------------------------------------
+$> intltool-extract --type=gettext/glade images/myrtille.glade
+Creer un fichier  images/myrtille.glade.h
+
+
+2. creation du fichier .pot ( base de la traduction)
+-------------------------------------------------------------------------------
+On suppose ici que tout les messages a traduire dans python sont dans myrtille.py
+$> xgettext --language=Python --keyword=_ --keyword=N_ --from-code=UTF-8 --output=po/myrtille.pot myrtille.py images/myrtille.glade.h 
+
+3. creation des fichier .po ( un par langue)
+-------------------------------------------------------------------------------
+Pour du francais :
+$> msginit --input=po/luciole.pot --locale=fr_FR --output-file=po/luciole-fr.po
+
+Attention : le .po pour l'anglais (en_US) est directement remplis.
+
+4. Traduire
+------------------------------------------------------------------------------- 
+Modifile les .po avec la traduction voulue
+
+5. creation des fichier .mo ( un par langue, utilisable par gettext )
+-------------------------------------------------------------------------------
+pour une langue creer le repertoire de dest
+$> mkdir -p po/fr/LC_MESSAGES
+creation du .mo 
+$> msgfmt po/luciole-fr.po -o po/fr/LC_MESSAGES/luciole.mo
+
+
+
+6. Voir comment cela passe a l'install surtout avec le localedir
+
+7. pour mise a jour utiliser msgmerge
+
+
+
+
+Mise a jours :
+1. si besoin mettre a jour le POTFILES.in avec les fichiers pythons ayant besoin de traduction
+2.  faire un make trans-po-update 
+3. faire la traduction dans le fr_FR.po
+4. faire ensuite un make trans-compile --> creer la fichier de langue compiler qui va bien
+
